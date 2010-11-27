@@ -15,13 +15,15 @@
  */
 body {
   margin: 0;
-  padding: 0;
+  padding: 12px 0 0 0;
+  background: #e7e7e7 url(../images/bg-main.png) center repeat-y;
 }
 
 #page-wrapper {
 }
 
 #page {
+  min-height: 650px;
 }
 
 /*
@@ -55,6 +57,7 @@ body {
  * Header
  */
 #header {
+  margin: 0 0 12px 0;
 }
 
 #header .section {

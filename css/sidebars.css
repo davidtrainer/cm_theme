@@ -12,8 +12,8 @@ div.region-sidebar-first {
 }
 
 div.region-sidebar-second {
-  width: 200px;
-  margin-left: 760px;
+  width: 240px;
+  margin-left: 720px;
   margin-right: -960px;
 }
 
@@ -28,12 +28,12 @@ body.sidebar-first #content {
 }
 
 body.sidebar-second #content {
-  width: 760px;
-  margin-right: -760px;
+  width: 720px;
+  margin-right: -720px;
 }
 
 body.two-sidebars #content {
-  width: 560px;
+  width: 520px;
   margin-left: 200px;
-  margin-right: -760px;
+  margin-right: -720px;
 }
