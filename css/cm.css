@@ -1,0 +1,99 @@
+@CHARSET "UTF-8";
+
+/*
+ * Primary Links Block
+ */
+
+#block-menu-primary-links {
+  float: right;
+}
+
+#block-menu-primary-links ul li {
+  display: inline;
+  font-size: 1.1em;
+  margin: 0px 12px;
+  menu-list-style: none;
+}
+
+#block-menu-primary-links li a,
+#block-menu-primary-links li a:visited {
+  color: #777;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#block-menu-primary-links li a.active {
+  color: #000;
+}
+
+/*
+ * Block Titles
+ */
+
+h3.title {
+  color: #444;
+  font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 300;
+  margin: 0px;
+}
+
+/*
+ * Footer
+ */
+
+.page-closure-wrapper {
+  background: #333;
+  padding: 40px 0;
+  width:100%;
+}
+
+#block-menu-menu-footer ul {
+  padding: 0px;
+}
+
+#block-menu-menu-footer ul li {
+  list-style: none;
+}
+
+#block-menu-menu-footer ul li a,
+#block-menu-menu-footer ul li a:visited {
+  color: #ddd;
+  text-decoration: none;
+}
+#block-menu-menu-footer ul li a:hover {
+  color: #fff;
+}
+
+/*
+ * Taxonomy Terms
+ */
+
+.terms {
+  font-size: .85em;
+}
+
+.terms .categories-label {
+  color: #999;
+}
+
+.terms li {
+  
+}
+
+.terms li a,
+.terms li a:visited {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color:#ddd;
+  color:#555;
+  display:inline-block;
+  margin: 0;
+  padding: 3px 5px 2px;
+  text-decoration: none;
+}
+
+.terms li a:hover {
+  background-color:#48e;
+  color:#fff;
+}
